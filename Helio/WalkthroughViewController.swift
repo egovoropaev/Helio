@@ -12,7 +12,6 @@ struct MultipleDeviceView: View {
         NavigationView {
             VStack {
                 WalkthroughView(image: "multiple", header: "Multiple Device")
-                
                 NavigationLink(destination: GrateReminderView(), label: {
                     Text("Next")
                 })
