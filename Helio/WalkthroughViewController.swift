@@ -14,6 +14,8 @@ struct MultipleDeviceView: View {
                 WalkthroughView(image: "multiple", header: "Multiple Device")
                 NavigationLink(destination: GrateReminderView(), label: {
                     Text("Next")
+                        .font(Font.custom("JosefinSans-Regular", size: 15))
+                        .foregroundColor(Color("BBC1C8"))
                 })
                 .offset(y: 50)
             }
@@ -24,10 +26,12 @@ struct MultipleDeviceView: View {
 struct GrateReminderView: View {
     var body: some View {
         VStack {
-            WalkthroughView(image: "gratereminder", header: "Grate Reminder")
+            WalkthroughView(image: "gratereminder", header: "Great Reminder")
             
             NavigationLink(destination: TimeSavingView(), label: {
                 Text("Next")
+                    .font(Font.custom("JosefinSans-Regular", size: 15))
+                    .foregroundColor(Color("BBC1C8"))
             })
             .offset(y: 50)
         }
@@ -56,16 +60,14 @@ struct WalkthroughView: View {
                        alignment: .center)
             Text(header)
                 .offset(y: -40)
-                .font(.system(size: 24,
-                              weight: .regular,
-                              design: .default))
-            Text("Please enter your email address or phone number to reset your password").multilineTextAlignment(.center)
+                .font(Font.custom("JosefinSans-SemiBold", size: 20))
+                .foregroundColor(Color("1F314A"))
+            Text("Please enter your email address or phone number to reset your password")
+                .multilineTextAlignment(.center)
+                .font(Font.custom("JosefinSans-Regular", size: 14))
                 .lineSpacing(8)
                 .offset(y: -20)
-                .font(.system(size: 14,
-                              weight: .light,
-                              design: .default))
-                .foregroundColor(.gray)
+                .foregroundColor(Color("BBC1C8"))
                 .frame(width: 295,
                        height: 48,
                        alignment: .center)

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69646E8525A84CBD00A7FA69 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69646E8425A84CBD00A7FA69 /* JosefinSans-Regular.ttf */; };
+		69646E8825A84CC900A7FA69 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69646E8725A84CC900A7FA69 /* JosefinSans-SemiBold.ttf */; };
 		698FF05E25A7171300E39D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698FF05D25A7171300E39D23 /* AppDelegate.swift */; };
 		698FF06025A7171300E39D23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698FF05F25A7171300E39D23 /* SceneDelegate.swift */; };
 		698FF06225A7171300E39D23 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698FF06125A7171300E39D23 /* WalkthroughViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69646E8425A84CBD00A7FA69 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-Regular.ttf"; path = "../../../../../Library/Fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		69646E8725A84CC900A7FA69 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-SemiBold.ttf"; path = "../../../../../Library/Fonts/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		698FF05A25A7171300E39D23 /* Helio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698FF05D25A7171300E39D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698FF05F25A7171300E39D23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69646E7825A84BCB00A7FA69 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				69646E8725A84CC900A7FA69 /* JosefinSans-SemiBold.ttf */,
+				69646E8425A84CBD00A7FA69 /* JosefinSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		698FF05125A7171300E39D23 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		698FF05C25A7171300E39D23 /* Helio */ = {
 			isa = PBXGroup;
 			children = (
+				69646E7825A84BCB00A7FA69 /* Fonts */,
 				698FF05D25A7171300E39D23 /* AppDelegate.swift */,
 				698FF05F25A7171300E39D23 /* SceneDelegate.swift */,
 				698FF06125A7171300E39D23 /* WalkthroughViewController.swift */,
@@ -133,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				698FF06A25A7171300E39D23 /* LaunchScreen.storyboard in Resources */,
+				69646E8525A84CBD00A7FA69 /* JosefinSans-Regular.ttf in Resources */,
 				698FF06725A7171300E39D23 /* Preview Assets.xcassets in Resources */,
+				69646E8825A84CC900A7FA69 /* JosefinSans-SemiBold.ttf in Resources */,
 				698FF06425A7171300E39D23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
