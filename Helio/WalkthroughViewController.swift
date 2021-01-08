@@ -10,9 +10,29 @@ import SwiftUI
 struct MultipleDeviceView: View {
     var body: some View {
         NavigationView {
+            ZStack {
+                LinearGradient(gradient: Gradient(colors: [.white, Color("EFF1F5")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+                VStack {
+                    WalkthroughView(image: "multiple", header: "Multiple Device")
+                    NavigationLink(destination: GreatReminderView(), label: {
+                        Text("Next")
+                            .font(Font.custom("JosefinSans-Regular", size: 15))
+                            .foregroundColor(Color("BBC1C8"))
+                    })
+                    .offset(y: 50)
+                }
+            }
+        }.background(LinearGradient(gradient: Gradient(colors: [.white, Color("EFF1F5")]), startPoint: .top, endPoint: .bottom))
+    }
+}
+
+struct GreatReminderView: View {
+    var body: some View {
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.white, Color("EFF1F5")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
             VStack {
-                WalkthroughView(image: "multiple", header: "Multiple Device")
-                NavigationLink(destination: GrateReminderView(), label: {
+                WalkthroughView(image: "gratereminder", header: "Great Reminder")
+                NavigationLink(destination: TimeSavingView(), label: {
                     Text("Next")
                         .font(Font.custom("JosefinSans-Regular", size: 15))
                         .foregroundColor(Color("BBC1C8"))
@@ -23,25 +43,14 @@ struct MultipleDeviceView: View {
     }
 }
 
-struct GrateReminderView: View {
-    var body: some View {
-        VStack {
-            WalkthroughView(image: "gratereminder", header: "Great Reminder")
-            
-            NavigationLink(destination: TimeSavingView(), label: {
-                Text("Next")
-                    .font(Font.custom("JosefinSans-Regular", size: 15))
-                    .foregroundColor(Color("BBC1C8"))
-            })
-            .offset(y: 50)
-        }
-    }
-}
-
 struct TimeSavingView: View {
     var body: some View {
-        VStack {
-            WalkthroughView(image: "timesaving", header: "Time Saving & Productive")
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.white, Color("EFF1F5")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+            VStack {
+                WalkthroughView(image: "timesaving", header: "Time Saving & Productive")
+                    .offset(y: -7)
+            }
         }
     }
 }
