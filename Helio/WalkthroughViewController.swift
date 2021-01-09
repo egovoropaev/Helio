@@ -50,7 +50,17 @@ struct TimeSavingView: View {
             VStack {
                 WalkthroughView(image: "timesaving", header: "Time Saving & Productive")
                     .offset(y: -7)
+                Button(action: getStartedButton) {
+                    Text("Get Started")
+                        .frame(width: 295, height: 52)
+                        .font(Font.custom("JosefinSans-SemiBold", size: 15))
+                        .foregroundColor(.white)
+                        .background(LinearGradient(gradient: Gradient(colors: [Color("53CFC6"), Color("63BFCD")]), startPoint: .top, endPoint: .bottom))
+                        .cornerRadius(26)
+                }
+                .offset(y: 25)
             }
+            .offset(y: 25)
         }
     }
 }
@@ -88,4 +98,8 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         MultipleDeviceView()
     }
+}
+
+func getStartedButton() -> Void {
+    print("Get Started Button clicked!")
 }
