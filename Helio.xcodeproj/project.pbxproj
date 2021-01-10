@@ -15,6 +15,7 @@
 		698FF06425A7171300E39D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698FF06325A7171300E39D23 /* Assets.xcassets */; };
 		698FF06725A7171300E39D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698FF06625A7171300E39D23 /* Preview Assets.xcassets */; };
 		698FF06A25A7171300E39D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698FF06825A7171300E39D23 /* LaunchScreen.storyboard */; };
+		69F352E025AAE5D100C0AA7B /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F352DF25AAE5D100C0AA7B /* SignViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		698FF06625A7171300E39D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		698FF06925A7171300E39D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		698FF06B25A7171300E39D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F352DF25AAE5D100C0AA7B /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				69646E7825A84BCB00A7FA69 /* Fonts */,
 				698FF05D25A7171300E39D23 /* AppDelegate.swift */,
 				698FF05F25A7171300E39D23 /* SceneDelegate.swift */,
+				69F352DF25AAE5D100C0AA7B /* SignViewController.swift */,
 				698FF06125A7171300E39D23 /* WalkthroughViewController.swift */,
 				698FF06325A7171300E39D23 /* Assets.xcassets */,
 				698FF06825A7171300E39D23 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 				698FF05E25A7171300E39D23 /* AppDelegate.swift in Sources */,
 				698FF06025A7171300E39D23 /* SceneDelegate.swift in Sources */,
 				698FF06225A7171300E39D23 /* WalkthroughViewController.swift in Sources */,
+				69F352E025AAE5D100C0AA7B /* SignViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
