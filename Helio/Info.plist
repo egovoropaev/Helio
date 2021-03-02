@@ -58,6 +58,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Pacifico-Regular.ttf</string>
 		<string>JosefinSans-SemiBold.ttf</string>
 		<string>JosefinSans-Regular.ttf</string>
 	</array>

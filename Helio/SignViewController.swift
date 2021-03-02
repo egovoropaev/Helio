@@ -9,7 +9,12 @@ import SwiftUI
 
 struct SignIn: View {
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Text("Helio")
+                .font(Font.custom("Pacifico-Regular", size: 39))
+                .foregroundColor(Color("1F314A"))
+                .position(x: 141.0, y: 104.0)
+        }
     }
 }
 

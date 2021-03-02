@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		691F8C0725B6F81D005EF249 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 691F8C0625B6F81D005EF249 /* Pacifico-Regular.ttf */; };
 		69646E8525A84CBD00A7FA69 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69646E8425A84CBD00A7FA69 /* JosefinSans-Regular.ttf */; };
 		69646E8825A84CC900A7FA69 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69646E8725A84CC900A7FA69 /* JosefinSans-SemiBold.ttf */; };
 		698FF05E25A7171300E39D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698FF05D25A7171300E39D23 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		691F8C0625B6F81D005EF249 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		69646E8425A84CBD00A7FA69 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-Regular.ttf"; path = "../../../../../Library/Fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
 		69646E8725A84CC900A7FA69 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-SemiBold.ttf"; path = "../../../../../Library/Fonts/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		698FF05A25A7171300E39D23 /* Helio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 			children = (
 				69646E8725A84CC900A7FA69 /* JosefinSans-SemiBold.ttf */,
 				69646E8425A84CBD00A7FA69 /* JosefinSans-Regular.ttf */,
+				691F8C0625B6F81D005EF249 /* Pacifico-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				698FF06A25A7171300E39D23 /* LaunchScreen.storyboard in Resources */,
 				69646E8525A84CBD00A7FA69 /* JosefinSans-Regular.ttf in Resources */,
 				698FF06725A7171300E39D23 /* Preview Assets.xcassets in Resources */,
+				691F8C0725B6F81D005EF249 /* Pacifico-Regular.ttf in Resources */,
 				69646E8825A84CC900A7FA69 /* JosefinSans-SemiBold.ttf in Resources */,
 				698FF06425A7171300E39D23 /* Assets.xcassets in Resources */,
 			);
